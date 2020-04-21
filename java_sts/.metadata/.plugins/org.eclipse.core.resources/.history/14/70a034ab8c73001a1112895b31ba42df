@@ -1,0 +1,10 @@
+package com.itcorner4u.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.itcorner4u.model.Users;
+
+@Repository
+public interface UsersRepository  extends JpaRepository<Users,Integer>{
+
+}

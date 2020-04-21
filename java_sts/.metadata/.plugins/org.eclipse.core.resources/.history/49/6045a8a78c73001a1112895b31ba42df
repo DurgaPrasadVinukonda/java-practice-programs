@@ -1,0 +1,5 @@
+package com.itcorner4u.repositories;
+
+public interface UsersRepository {
+
+}

@@ -1,0 +1,3 @@
+2020-03-09 11:17:57.936  INFO 2836 --- [main] com.vs.application.Application           : Starting Application on DESKTOP-450EKBI with PID 2836 (C:\Users\van\Documents\workspace-spring-tool-suite-4-4.5.1.RELEASE\40-SBLogAppDemo\target\classes started by van in C:\Users\van\Documents\workspace-spring-tool-suite-4-4.5.1.RELEASE\40-SBLogAppDemo)
+2020-03-09 11:17:57.938  INFO 2836 --- [main] com.vs.application.Application           : No active profile set, falling back to default profiles: default
+2020-03-09 11:17:58.899  INFO 2836 --- [main] com.vs.application.Application           : Started Application in 1.937 seconds (JVM running for 2.832)

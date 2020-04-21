@@ -1,0 +1,54 @@
+package com.itcorner4u.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Define_Roles")
+public class Define_Roles {
+	@Id
+	@Column(name="")
+	private int idNumber;
+	@Column(name="")
+	private String role;
+	@Column(name="")
+	private boolean Administrator;
+	@Column(name="")
+	private boolean Comment;
+	@Column(name="")
+	private boolean readOnly;
+	public int getIdNumber() {
+		return idNumber;
+	}
+	public void setIdNumber(int idNumber) {
+		this.idNumber = idNumber;
+	}
+	public String getRole() {
+		return role;
+	}
+	public void setRole(String role) {
+		this.role = role;
+	}
+	public boolean isAdministrator() {
+		return Administrator;
+	}
+	public void setAdministrator(boolean administrator) {
+		Administrator = administrator;
+	}
+	public boolean isComment() {
+		return Comment;
+	}
+	public void setComment(boolean comment) {
+		Comment = comment;
+	}
+	public boolean isReadOnly() {
+		return readOnly;
+	}
+	public void setReadOnly(boolean readOnly) {
+		this.readOnly = readOnly;
+	}
+	
+
+}

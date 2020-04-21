@@ -1,0 +1,32 @@
+package com.vs.services;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.vs.model.Student;
+
+
+public class StudentService {
+	
+	@Autowired
+	private DataSource datasource;
+	
+	public List<Student> getAllStudents() throws SQLException{
+		List<Student> student = new ArrayList<Student>();
+		Connection con = datasource.getConnection();
+		Statement stmt =con.createStatement();
+		Resultset rs = stmt.executeQuery("select * from studentdetails");
+		
+	}
+
+	
+	
+
+}

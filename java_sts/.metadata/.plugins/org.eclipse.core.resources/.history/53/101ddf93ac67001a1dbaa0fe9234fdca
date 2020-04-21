@@ -1,0 +1,17 @@
+package com.vs.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import com.vs.model.Student;
+
+public class StudentService {
+	
+	@Auotwired
+	private DataSource datasource;
+	public List<Student> students = new ArrayList<Student>();
+	
+
+}
